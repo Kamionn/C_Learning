@@ -5,6 +5,7 @@
  
 int main(int argc, char *argv[]) // Équivalent de int main()
 {
+  // instruction
   int kamion; 
   kamion = 1; 
   printf("%d chocolat", kamion);
