@@ -10,9 +10,8 @@ int main(int argc, char *argv[]) // Équivalent de int main()
   kamion = 1; 
   printf("%d chocolat", kamion);
 
-  int kamvalue;
   const int kamvalue = 5; // Valeur constante 
-   printf("%d vélo", kamvalue);
+  printf("%d vélo", kamvalue);
 
   return 0;
 }
