@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]) // Équivalent de int main()
+int main(int argc, char *argv[]) // ï¿½quivalent de int main()
 {
   // instruction
   int kamion;
@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) // Équivalent de int main()
   printf("%d chocolat", kamion);
 
   const int kamvalue = 5; // Valeur constante
-  printf("%d vélo", kamvalue);
+  printf("%d velo", kamvalue);
 
   return 0;
 }

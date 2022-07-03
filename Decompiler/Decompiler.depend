@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1656837403 source:c:\users\kamic\desktop\learn_c\decompiler\main.c
+	<stdio.h>
+	<stdlib.h>
+

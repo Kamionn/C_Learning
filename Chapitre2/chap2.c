@@ -6,12 +6,10 @@
 int main(int argc, char *argv[]) // Équivalent de int main()
 {
   // instruction
-  int kamion; 
-  kamion = 1; 
-  printf("%d chocolat", kamion);
+  int chocolat = 2, brioche = 1; 
+  printf("Vous avez %d de chocolat et %d de brioche", chocolat, brioche);
 
-  const int kamvalue = 5; // Valeur constante 
-  printf("%d vélo", kamvalue);
+
 
   return 0;
 }
