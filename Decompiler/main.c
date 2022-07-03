@@ -1,15 +1,15 @@
+// declarez des variables
+
 #include <stdio.h>
 #include <stdlib.h>
-
-int main(int argc, char *argv[]) // �quivalent de int main()
+ 
+int main(int argc, char *argv[]) // Équivalent de int main()
 {
   // instruction
-  int kamion;
-  kamion = 1;
-  printf("%d chocolat", kamion);
+  int chocolat = 2, brioche = 1; 
+  printf("Vous avez %d de chocolat et %d de brioche", chocolat, brioche);
 
-  const int kamvalue = 5; // Valeur constante
-  printf("%d velo", kamvalue);
+
 
   return 0;
 }
