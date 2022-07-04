@@ -3,7 +3,7 @@
 
 int main()
 {
-    int nombre1 = 0; 
+    int nombre1 = 0, nombre2 = 0, addition = 0, soustraction = 0, multiplication = 0, division = 0;; 
     printf("Choisissez un nombre : ");
     scanf("Nombre2 choisis : %d /n", &nombre1);
 
@@ -11,7 +11,7 @@ int main()
     printf("Choisissez un nombre : ");
     scanf("Nombre2 choisis : %d /n", &nombre2);
 
-    int addition = 0, soustraction = 0, multiplication = 0, division = 0;
+   
     addition = nombre1 + nombre2;
     printf("Addition : %d /n", addition);
 
