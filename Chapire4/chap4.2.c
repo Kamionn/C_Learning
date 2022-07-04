@@ -5,14 +5,13 @@
 int main()
 {
    int fruit;
-
    printf("   Fruit   \n");
    printf("\n");
    printf("1. Mangue\n");
    printf("2. Fraise\n");
    printf("3. Cerise\n");
    printf("\n");
-   scanf("%d", &fruit);
+   scanf("%d", &fruit); 
 
    switch (fruit)
     {
@@ -26,9 +25,6 @@ int main()
             printf("Fruit introuvable");
             break;
     }
-
-    printf("\n");
-   return 0;
 }
 
 
