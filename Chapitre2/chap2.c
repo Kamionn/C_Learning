@@ -11,3 +11,17 @@ int main(int argc, char *argv[]) // Équivalent de int main()
   scanf("%d", &chocolat);
   return 0;
 }
+
+
+// declarez des variables
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) // Équivalent de int main()
+{
+    int variable = 1;
+    printf("Je suis bg aujourd'hui");
+    scanf("%d");
+    
+}
