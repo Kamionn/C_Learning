@@ -1,6 +1,5 @@
 // Crée un petit programme pour demandez l'âge
 
-
 #include <stdio.h> // Librairies
 #include <stdlib.h>  // Librairies
 
