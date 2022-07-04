@@ -1,12 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Calcul de fonction
+
 int main()
 {
-    int nombre1 = 0, nombre2 = 0, addition = 0, soustraction = 0, multiplication = 0, division = 0;; 
-    printf("Entrez le nombre 1 : ");
+    int nombre1 = 0, nombre2 = 0, addition = 0, soustraction = 0, multiplication = 0, division = 0, modulos = 0; 
+    
+    printf("Choisissez un nombre : ");
     scanf("%d", &nombre1);
-    printf("Entrez le nombre 2 : ");
+   
+    printf("Choisissez un nombre : ");
     scanf("%d", &nombre2);
 
     addition = nombre1 + nombre2;
@@ -20,4 +24,7 @@ int main()
 
     division = nombre1 / nombre2;
     printf("Division : %d \n", division);
+
+    modulos = nombre1 % nombre2;
+    printf("Modulos : %d \n", modulos);
 }
