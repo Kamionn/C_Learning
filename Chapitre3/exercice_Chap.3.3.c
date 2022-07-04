@@ -1,15 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Calcul de fonction + Incrémentation 
+// Calcul de fonction + Incrémentation (Addition)
 
 int main()
 {
     int nombre1 = 1, nombre2 = 0, resultat;
-
-    nombre1 = nombre1 + 0.02;
-    resultat = nombre1 + nombre2;
-
-    printf("%d",resultat);
-    
+    resultat = nombre1 + nombre2 + 2;
+    printf("Nombre incremente : %d",resultat);
 }
