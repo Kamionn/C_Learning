@@ -5,7 +5,7 @@
 
 int main()
 {
-    int nombre1 = 0, nombre2 = 0, addition = 0, soustraction = 0, multiplication = 0, division = 0, modulos = 0; 
+    int nombre1 = 0, nombre2 = 0, addition, soustraction, multiplication, division, modulos; 
     
     printf("Choisissez un nombre : ");
     scanf("%d", &nombre1);
