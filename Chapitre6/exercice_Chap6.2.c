@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-int menu()
+int fruit()
 {
     int fruit = 0;
     
@@ -22,7 +22,7 @@ int menu()
 
 int main(int argc, char *argv[])
 {    
-    switch (menu())
+    switch (fruit())
     {
         case 1:
             printf("Vous avez pris la fraise\n");
@@ -31,7 +31,6 @@ int main(int argc, char *argv[])
             printf("Vous avez pris la framboise\n");
             break;
     }
-       
     return 0;
 }
 
