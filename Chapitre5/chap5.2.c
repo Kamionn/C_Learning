@@ -7,7 +7,7 @@
 int main()
 {
     int condition;
-    for (condition = 0 ; condition < 10 ; condition++)
+    for (condition = 0 ; condition < 10 ; condition++) 
     {
         printf("Ceci est une condition! %d \n", condition);
     }
