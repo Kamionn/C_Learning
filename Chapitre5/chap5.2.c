@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-// Boucle infinis avec compteur avec incréamentation avec While
+// Boucle infinis avec compteur avec incréamentation avec for
 
 int main()
 {
