@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
+// Boucle infinis avec compteur avec incréamentation avec While
+
 int main()
 {
     int condition = 50;
