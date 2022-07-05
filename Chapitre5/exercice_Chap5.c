@@ -11,6 +11,6 @@ int main()
     {
          printf("Nombre de boucle : %d\n", boucle);
          boucle --; // Incrémentation
-         boucle ++; // Infinis
+        // boucle ++; // Infinis
     }
 }
