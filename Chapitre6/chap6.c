@@ -3,7 +3,7 @@
 
 int triple(int nombre)
 {
-    return 3 * nombre;
+    return 3 + nombre;
 }    
 
 int main(int argc, char *argv[])
