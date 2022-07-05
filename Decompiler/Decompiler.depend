@@ -1,6 +1,5 @@
 # depslib dependency file v1.0
-1656957694 source:c:\users\kamic\desktop\learn_c\decompiler\main.c
+1657037481 source:c:\users\kamic\desktop\learn_c\decompiler\main.c
 	<stdio.h>
 	<stdlib.h>
-	<math.h>
 

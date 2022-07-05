@@ -1,20 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int triple(int nombre)
+int multiplication(int multiple)
 {
-    return 3 * nombre;
+    return 2 * multiple;
 }
 
-int main(int argc, char *argv[])
+int main()
 {
-    int nombreEntre = 0, nombreTriple = 0;
+    int nombre = 0, number = 0;
+    printf("Entre un numero a multiplier : ");
+    scanf("%d", &nombre);
 
-    printf("Entrez un nombre... ");
-    scanf("%d", &nombreEntre);
-
-    nombreTriple = triple(nombreEntre);
-    printf("Le triple de ce nombre est %d\n", nombreTriple);
+    number = multiplication(nombre);
+    printf("Resultat : %d", number);
 
     return 0;
 }
