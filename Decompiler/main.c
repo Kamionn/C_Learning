@@ -1,16 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
-
-int main()
+int triple(int nombre)
 {
-    int boucle = 10;
+    int resultat = 0;
 
-    while (boucle != 0)
-    {
-         printf("Nombre de boucle : %d\n", boucle);
-         boucle --; // Incrémentation
-        // boucle ++; // Infinis
-    }
+    resultat = 3 * nombre;  // On multiplie le nombre fourni par 3
+    return resultat;       // On retourne la variable resultat qui vaut le triple de nombre
 }
