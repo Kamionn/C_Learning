@@ -6,13 +6,9 @@
 
 int main()
 {
-    int condition = 50;
-
-    while (condition != 0)
+    int condition;
+    for (condition = 0 ; condition < 10 ; condition++)
     {
-        printf("%d\n", condition);
-        condition--;
+        printf("Ceci est une condition! %d \n", condition);
     }
-    printf("%d\n", condition);
-    return 0; 
 }
