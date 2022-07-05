@@ -4,18 +4,13 @@
 
 int main()
 {
-    int age = 2;
+    int condition = 50;
 
-     if (age >= 18) // Si l'âge est supérieur ou égal à 18
+    while (condition != 0)
     {
-        printf ("Vous etes majeur !");
+        printf("%d\n", condition);
+        condition--;
     }
-        else if ( age > 4 ) // Sinon, si l'âge est au moins supérieur à 4
-    {
-        printf ("Bon t'es pas trop jeune quand meme...");
-    }
-        else // Sinon...
-    {
-        printf ("Aga gaa aga gaaa"); // Langage bébé, vous pouvez pas comprendre
-}
+    printf("%d\n", condition);
+    return 0;
 }
