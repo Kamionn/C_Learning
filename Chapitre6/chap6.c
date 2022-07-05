@@ -8,3 +8,5 @@ int triple(int nombre)
     resultat = 3 * nombre;  // On multiplie le nombre fourni par 3
     return resultat;       // On retourne la variable resultat qui vaut le triple de nombre
 }
+
+
