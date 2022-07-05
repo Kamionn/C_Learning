@@ -2,13 +2,15 @@
 #include <stdlib.h>
 #include <math.h>
 
-int condition = 0;
-
 int main()
 {
-while (condition != 1)
-{
-    printf("Tapez le nombre 1 ! ");
-    scanf("%d", &condition);
-}
+    int condition = 50;
+
+    while (condition != 0)
+    {
+        printf("%d\n", condition);
+        condition--;
+    }
+    printf("%d\n", condition);
+    return 0; 
 }
