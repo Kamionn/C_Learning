@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 // Fonction secondaire
 int triple(int nombre) // 6
@@ -8,7 +9,7 @@ int triple(int nombre) // 6
 }    
 
 // Fonction primaire
-int main(int argc, char *argv[]) // 1
+int main() // 1
 {
     int nombreEntre = 0, nombreTriple = 0; // 2
     
