@@ -3,7 +3,7 @@
 </p>
 <p align="center">
 <h1>Welcome!</h1> 
-This repo was created to share my experience of learning the C language
+This repo was created to share my experience of learning the C language. This repo are French.
 </p>
 
 [Code:Bloc](https://www.codeblocks.org/)
