@@ -6,4 +6,4 @@ set(CMAKE_C_STANDARD 11)
 include_directories(Chapitre7/exercice_chocolat)
 
 add_executable(Learn_C
-        Quizz_Test/Quizz_1/main.c)
+        Chapitre8/chap8.c)

@@ -22,7 +22,7 @@ int main ()
             printf("C'est moins !\n\n");
         else
             printf ("Bravo, vous avez trouve le nombre mystere !!!\n\n");
-    } while (nombreEntre != nombreMystere);
+    } while (nombreEntre != nombreMystere); // Correction [Erreur symbole]
 
     return 0;
 }
