@@ -5,7 +5,7 @@
 
 int main()
 {
-    double resultat;
+    int resultat;
     resultat = prototype(10.0, 80.0);
 
     printf("L'aire du Rectangle est : %d", resultat);
