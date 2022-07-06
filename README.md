@@ -6,5 +6,10 @@
 This repo was created to share my experience of learning the C language
 </p>
 
+[Code:Bloc](https://www.codeblocks.org/)
+
+[Visual Studio](https://visualstudio.microsoft.com/fr/)
+
+[Clion IDE](https://www.jetbrains.com/fr-fr/clion/)
 
 `Made with C and by Kamion.`
