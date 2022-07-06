@@ -49,19 +49,33 @@ cmake_ninja_workdir = C$:/Users/kamic/Desktop/Learn_C/cmake-build-debug/
 
 build cmake_object_order_depends_target_Learn_C: phony || CMakeFiles/Learn_C.dir
 
-build CMakeFiles/Learn_C.dir/Chapitre7/Header/air.c.obj: C_COMPILER__Learn_C_Debug C$:/Users/kamic/Desktop/Learn_C/Chapitre7/Header/air.c || cmake_object_order_depends_target_Learn_C
-  DEP_FILE = CMakeFiles\Learn_C.dir\Chapitre7\Header\air.c.obj.d
+build CMakeFiles/Learn_C.dir/Chapitre7/exercice_fruit/main.c.obj: C_COMPILER__Learn_C_Debug C$:/Users/kamic/Desktop/Learn_C/Chapitre7/exercice_fruit/main.c || cmake_object_order_depends_target_Learn_C
+  DEP_FILE = CMakeFiles\Learn_C.dir\Chapitre7\exercice_fruit\main.c.obj.d
   FLAGS = -g -std=gnu11
-  INCLUDES = -IC:/Users/kamic/Desktop/Learn_C/Chapitre7/Header
+  INCLUDES = -IC:/Users/kamic/Desktop/Learn_C/Chapitre7/exercice_fruit
   OBJECT_DIR = CMakeFiles\Learn_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Learn_C.dir\Chapitre7\Header
+  OBJECT_FILE_DIR = CMakeFiles\Learn_C.dir\Chapitre7\exercice_fruit
 
-build CMakeFiles/Learn_C.dir/Chapitre7/Header/main.c.obj: C_COMPILER__Learn_C_Debug C$:/Users/kamic/Desktop/Learn_C/Chapitre7/Header/main.c || cmake_object_order_depends_target_Learn_C
-  DEP_FILE = CMakeFiles\Learn_C.dir\Chapitre7\Header\main.c.obj.d
+build CMakeFiles/Learn_C.dir/Chapitre7/exercice_fruit/fruit.c.obj: C_COMPILER__Learn_C_Debug C$:/Users/kamic/Desktop/Learn_C/Chapitre7/exercice_fruit/fruit.c || cmake_object_order_depends_target_Learn_C
+  DEP_FILE = CMakeFiles\Learn_C.dir\Chapitre7\exercice_fruit\fruit.c.obj.d
   FLAGS = -g -std=gnu11
-  INCLUDES = -IC:/Users/kamic/Desktop/Learn_C/Chapitre7/Header
+  INCLUDES = -IC:/Users/kamic/Desktop/Learn_C/Chapitre7/exercice_fruit
   OBJECT_DIR = CMakeFiles\Learn_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Learn_C.dir\Chapitre7\Header
+  OBJECT_FILE_DIR = CMakeFiles\Learn_C.dir\Chapitre7\exercice_fruit
+
+build CMakeFiles/Learn_C.dir/Chapitre7/exercice_chocolat/main.c.obj: C_COMPILER__Learn_C_Debug C$:/Users/kamic/Desktop/Learn_C/Chapitre7/exercice_chocolat/main.c || cmake_object_order_depends_target_Learn_C
+  DEP_FILE = CMakeFiles\Learn_C.dir\Chapitre7\exercice_chocolat\main.c.obj.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -IC:/Users/kamic/Desktop/Learn_C/Chapitre7/exercice_fruit
+  OBJECT_DIR = CMakeFiles\Learn_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Learn_C.dir\Chapitre7\exercice_chocolat
+
+build CMakeFiles/Learn_C.dir/Chapitre7/exercice_chocolat/chocolat.c.obj: C_COMPILER__Learn_C_Debug C$:/Users/kamic/Desktop/Learn_C/Chapitre7/exercice_chocolat/chocolat.c || cmake_object_order_depends_target_Learn_C
+  DEP_FILE = CMakeFiles\Learn_C.dir\Chapitre7\exercice_chocolat\chocolat.c.obj.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -IC:/Users/kamic/Desktop/Learn_C/Chapitre7/exercice_fruit
+  OBJECT_DIR = CMakeFiles\Learn_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Learn_C.dir\Chapitre7\exercice_chocolat
 
 
 # =============================================================================
@@ -71,7 +85,7 @@ build CMakeFiles/Learn_C.dir/Chapitre7/Header/main.c.obj: C_COMPILER__Learn_C_De
 #############################################
 # Link the executable Learn_C.exe
 
-build Learn_C.exe: C_EXECUTABLE_LINKER__Learn_C_Debug CMakeFiles/Learn_C.dir/Chapitre7/Header/air.c.obj CMakeFiles/Learn_C.dir/Chapitre7/Header/main.c.obj
+build Learn_C.exe: C_EXECUTABLE_LINKER__Learn_C_Debug CMakeFiles/Learn_C.dir/Chapitre7/exercice_fruit/main.c.obj CMakeFiles/Learn_C.dir/Chapitre7/exercice_fruit/fruit.c.obj CMakeFiles/Learn_C.dir/Chapitre7/exercice_chocolat/main.c.obj CMakeFiles/Learn_C.dir/Chapitre7/exercice_chocolat/chocolat.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Learn_C.dir

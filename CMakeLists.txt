@@ -3,9 +3,8 @@ project(Learn_C C)
 
 set(CMAKE_C_STANDARD 11)
 
-include_directories(Chapitre7/Header)
+include_directories(Chapitre7/exercice_chocolat)
 
 add_executable(Learn_C
-        Chapitre7/Header/air.c
-        Chapitre7/Header/air.h
-        Chapitre7/Header/main.c)
+        Chapitre7/exercice_chocolat/main.c
+        Chapitre7/exercice_chocolat/chocolat.c Chapitre7/exercice_chocolat/chocolat.h)

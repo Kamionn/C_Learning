@@ -1,7 +1,9 @@
 # ninja log v5
-2	623	6787975185351535	build.ninja	62e1840f5e99828f
+1	557	6788052185798636	CMakeFiles/Learn_C.dir/Chapitre7/Header/main.c.obj	b463da0673cebb05
 2	859	6787949265652948	CMakeFiles/Learn_C.dir/Chapitre1/chap1.c.obj	ef6321c166b33404
-3	637	6787968537713262	CMakeFiles/Learn_C.dir/Chapitre7/Header/main.c.obj	b463da0673cebb05
+1	569	6788059962910477	build.ninja	62e1840f5e99828f
 54	863	6787949265692948	CMakeFiles/Learn_C.dir/Chapitre2/exercice_Chap2.c.obj	1d51ce482f89689d
-3	550	6787968267764282	CMakeFiles/Learn_C.dir/Chapitre7/Header/air.c.obj	5309ff5153aecae
-638	902	6787968540303249	Learn_C.exe	f63b031fe09cedd2
+50	548	6788055531511839	CMakeFiles/Learn_C.dir/Chapitre7/exercice/fruit.c.obj	5ce8338a526845e8
+5	555	6788052185788636	CMakeFiles/Learn_C.dir/Chapitre7/Header/air.c.obj	5309ff5153aecae
+3	570	6788056779545169	CMakeFiles/Learn_C.dir/Chapitre7/exercice/main.c.obj	f5e9454a4ce1dcf5
+571	918	6788056782905393	Learn_C.exe	fd610f92dff553d
