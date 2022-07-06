@@ -10,8 +10,8 @@ int main ()
 {
     int nombreMystere = 0, nombreEntre = 0;
     const int MAX = 100, MIN = 1;
-    srand(time(NULL)); // Correction [Erreur]
-    nombreMystere = (rand() % (MAX - MIN + 1)) + MIN; // Correction [Erreur]
+    srand(time(NULL)); // Correction [Erreur utilisation]
+    nombreMystere = (rand() % (MAX - MIN + 1)) + MIN; // Correction [Erreur utilisation]
     do
     {
         printf("Quel est le nombre ? \n");
@@ -26,3 +26,5 @@ int main ()
 
     return 0;
 }
+
+// Correction : https://github.com/OpenClassrooms-Student-Center/19980-apprenez-a-programmer-en-c/blob/master/QUIZ_P1/main.cpp

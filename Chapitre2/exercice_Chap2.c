@@ -7,7 +7,7 @@ int main() // fonction
 {
     //Instruction
     int value = 0; 
-    printf("Choisissez un nombre : ");
+    printf("Choisissez un age : ");
     scanf("%d", &value);
-    printf("Vous avez choisis le nombre : %d", value);
+    printf("Vous avez choisis l'age : %d", value);
 }

@@ -12,7 +12,6 @@ int main(int argc, char *argv[]) // Équivalent de int main()
   return 0;
 }
 
-
 // declarez des variables
 
 #include <stdio.h>
