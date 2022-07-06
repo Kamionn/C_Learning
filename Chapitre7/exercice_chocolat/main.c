@@ -8,8 +8,8 @@
 
 int main()
 {
-    int resultat;
-    resultat = prototype(1.2, 10);
+    int resultat, chocolat, nombre;
+    resultat = prototype(10.2, 10);
     printf("Vous avez %d chocolat", resultat);
     return 0;
 }
