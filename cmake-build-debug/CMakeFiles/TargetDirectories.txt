@@ -1,3 +1,0 @@
-C:/Users/kamic/Desktop/Learn_C/cmake-build-debug/CMakeFiles/Learn_C.dir
-C:/Users/kamic/Desktop/Learn_C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/kamic/Desktop/Learn_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
