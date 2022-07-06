@@ -21,3 +21,10 @@ int incremente()
     nombre++; // 4
     return nombre; // 5
 }
+
+/* static int triple(int nombre) // static = Le local en lua
+{
+    // Instructions
+}*/
+
+/* static int triple(int nombre); */ // Modifier le prototype !
