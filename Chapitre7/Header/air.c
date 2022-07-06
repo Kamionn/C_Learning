@@ -6,5 +6,5 @@
 
 double prototype(double largeur, double hauteur)
 {
-    return largeur + hauteur;
+    return largeur * hauteur;
 }
