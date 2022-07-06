@@ -6,8 +6,8 @@
 int main()
 {
     double resultat;
-    resultat = airRectangle(10.0, 20.0);
+    resultat = prototype(10.0, 80.0);
 
-    printf("%d", resultat);
+    printf("L'aire du Rectangle est : %d", resultat);
     return 0;
 }
