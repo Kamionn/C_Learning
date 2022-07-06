@@ -2,6 +2,7 @@
 // Created by Kamion on 06/07/2022.
 //
 // Variable Global à bannir ! En C
+// Variable se supprime à la fin de la fonction
 
 #include <stdio.h>
 #include <stdlib.h>
