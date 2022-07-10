@@ -1,6 +1,7 @@
 //
 // Created by Kamion on 10/07/2022.
 //
+// Les pointeurs
 
 #include <stdlib.h>
 #include <stdio.h>
