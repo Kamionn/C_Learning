@@ -1,11 +1,10 @@
 //
 // Created by Kamion on 14/07/2022.
 //
-// Exercice C #1
-// [Révision : Affichage / saisie, Variables]
-// > Ecrire un programme qui demande un nombre entier à l'utilisateur
-// Et affiche la valeur de la saisie en octal et héxadécimal
-
+/* [Révision : Affichage / saisie, Variables]
+ > Ecrire un programme qui demande un nombre entier à l'utilisateur
+ Et affiche la valeur de la saisie en octal et héxadécimal
+*/
 
 #include <stdlib.h>
 #include <stdio.h>

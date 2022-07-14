@@ -49,12 +49,19 @@ cmake_ninja_workdir = C$:/Users/kamic/Desktop/Learn_C/cmake-build-debug/
 
 build cmake_object_order_depends_target_Learn_C: phony || CMakeFiles/Learn_C.dir
 
-build CMakeFiles/Learn_C.dir/Exercice/somme.c.obj: C_COMPILER__Learn_C_Debug C$:/Users/kamic/Desktop/Learn_C/Exercice/somme.c || cmake_object_order_depends_target_Learn_C
-  DEP_FILE = CMakeFiles\Learn_C.dir\Exercice\somme.c.obj.d
+build CMakeFiles/Learn_C.dir/Exercice/Calculatrice/calculatrice.c.obj: C_COMPILER__Learn_C_Debug C$:/Users/kamic/Desktop/Learn_C/Exercice/Calculatrice/calculatrice.c || cmake_object_order_depends_target_Learn_C
+  DEP_FILE = CMakeFiles\Learn_C.dir\Exercice\Calculatrice\calculatrice.c.obj.d
   FLAGS = -g -std=gnu11
   INCLUDES = -IC:/Users/kamic/Desktop/Learn_C/Chapitre7/exercice_chocolat
   OBJECT_DIR = CMakeFiles\Learn_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Learn_C.dir\Exercice
+  OBJECT_FILE_DIR = CMakeFiles\Learn_C.dir\Exercice\Calculatrice
+
+build CMakeFiles/Learn_C.dir/Exercice/Calculatrice/calcul.c.obj: C_COMPILER__Learn_C_Debug C$:/Users/kamic/Desktop/Learn_C/Exercice/Calculatrice/calcul.c || cmake_object_order_depends_target_Learn_C
+  DEP_FILE = CMakeFiles\Learn_C.dir\Exercice\Calculatrice\calcul.c.obj.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -IC:/Users/kamic/Desktop/Learn_C/Chapitre7/exercice_chocolat
+  OBJECT_DIR = CMakeFiles\Learn_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Learn_C.dir\Exercice\Calculatrice
 
 
 # =============================================================================
@@ -64,7 +71,7 @@ build CMakeFiles/Learn_C.dir/Exercice/somme.c.obj: C_COMPILER__Learn_C_Debug C$:
 #############################################
 # Link the executable Learn_C.exe
 
-build Learn_C.exe: C_EXECUTABLE_LINKER__Learn_C_Debug CMakeFiles/Learn_C.dir/Exercice/somme.c.obj
+build Learn_C.exe: C_EXECUTABLE_LINKER__Learn_C_Debug CMakeFiles/Learn_C.dir/Exercice/Calculatrice/calculatrice.c.obj CMakeFiles/Learn_C.dir/Exercice/Calculatrice/calcul.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Learn_C.dir
