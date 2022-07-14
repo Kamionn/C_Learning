@@ -9,6 +9,7 @@
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include "calcul.h"
 
 void app(void)
@@ -40,7 +41,7 @@ void app(void)
                 break;
             case 5:
                 // Quit
-                numbre_choice(choice);
+                exit(-1);
                 break;
             default:
                 printf("Option incorrect !\n");
