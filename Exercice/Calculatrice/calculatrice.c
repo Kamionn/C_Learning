@@ -15,7 +15,6 @@
 void app(void)
 {
     int choice = 0;
-
     do
     {
         menu();
@@ -42,12 +41,11 @@ void app(void)
             case 5:
                 // Quit
                 exit(-1);
-                break;
             default:
                 printf("Option incorrect !\n");
                 break;
+            }
         }
-    }
     while(choice !=5);
 }
 
