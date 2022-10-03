@@ -1,4 +1,13 @@
-"C:\Program Files\JetBrains\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\kamic\Desktop\Learn_C -B C:\Users\kamic\Desktop\Learn_C\cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe" -G Ninja -S D:\Github\Learn_C -B D:\Github\Learn_C\cmake-build-debug
 -- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/kamic/Desktop/Learn_C/cmake-build-debug
+CMake Error at CMakeLists.txt:8 (add_executable):
+  Cannot find source file:
+
+    Exercice/Calculatrice/calculatrice.c
+
+
+CMake Error at CMakeLists.txt:8 (add_executable):
+  No SOURCES given to target: Learn_C
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
