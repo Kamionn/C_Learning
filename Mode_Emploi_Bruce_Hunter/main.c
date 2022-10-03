@@ -1,7 +1,7 @@
 //
 // Created by Kamion on 03/10/2022.
 //
-
+#include <stdio.h>
 
 main()
 {
