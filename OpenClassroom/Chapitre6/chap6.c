@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+// Fonction secondaire
+int triple(int nombre) // 6
+{
+    return 3 * nombre; // 7
+}    
+
+// Fonction primaire
+int main() // 1
+{
+    int nombreEntre = 0, nombreTriple = 0; // 2
+    
+    printf("Entrez un nombre... "); // 3
+    scanf("%d", &nombreEntre); // 4
+    
+    nombreTriple = triple(nombreEntre); // 5
+    printf("Le triple de ce nombre est %d\n", nombreTriple); // 8
+    
+    return 0; // 9
+}
